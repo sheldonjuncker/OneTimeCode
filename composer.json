@@ -14,11 +14,11 @@
   "autoload": {
     "psr-4": {
       "jundar\\WebTools\\OneTimeCode\\": "src/"
-    },
-    "autoload-dev": {
-      "psr-4": {
-        "jundar\\WebTools\\OneTimeCodeTest\\": "test/"
-      }
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "jundar\\WebTools\\OneTimeCodeTest\\": "test/"
     }
   },
   "require-dev": {"phpunit/phpunit": ">=9.0.0"}
