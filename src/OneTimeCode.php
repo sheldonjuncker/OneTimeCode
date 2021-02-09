@@ -61,7 +61,7 @@ class OneTimeCode
 	 */
 	public function generate(): string
 	{
-		return $this->getGenStrategy()->getCode();
+		return $this->getGenStrategy()->getCode($this->getLength());
 	}
 
 	/**
