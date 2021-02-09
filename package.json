@@ -1,0 +1,23 @@
+{
+  "name": "@jundar/onetimecode",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "description": "A simple web tool for generating easy to remember one time codes.",
+  "type": "module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sheldon Juncker",
+      "email": "sheldonjuncker@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "jundar\\WebTools\\OneTimeCode\\": "src/",
+      "jundar\\WebTools\\OneTimeCodeTest\\": "test/"
+    }
+  },
+  "require": {"phpunit/phpunit": ">=9.0.0"}
+}
